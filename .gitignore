@@ -19,5 +19,56 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Build directories
+/target/
+/build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Maven Wrapper
+.mvn/
+
+# Generated documentation
+/javadoc/
+
+# Application configuration (if sensitive)
+src/main/resources/application.properties
+src/test/resources/application-test.properties
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Linter/Formatter Reports
+/checkstyle-reports/
+/pmd-reports/
+/spotbugs-reports/
+
+
+# Maven Wrapper files
+mvnw
+mvnw.cmd
+
+# Help file
+HELP.md
